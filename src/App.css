@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 15vh;
+  width:100% ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  color: white;
+  background: grey;
+  background-size: cover;
+  opacity: 1;
+  transition: 0.3s;
+  
+}
+.App-header:hover {opacity: 0.5}
+
+.App-body{
+  background-color: #5280db;
+}
+.div {
+  column-gap: 100px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: rgb(129, 207, 233);
+  background: url(https://www.skymetweather.com/content/wp-content/uploads/2020/05/weather-forecast-fb-1.jpg);
+  background-size:auto ;
+}
+
+footer{
+  color: white;
+}
